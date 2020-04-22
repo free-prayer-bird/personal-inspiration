@@ -1,0 +1,36 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 700;
+    background: url("inspire-artem-sapegin-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.5em !important;
+}
+
+.navbar-brand {
+    font-size: 1.7rem !important;
+}
+
+h1 {
+    /*font-family: 'Open Sans Condensed', sans-serif !important;*/
+    font-family: 'Playfair Display', serif !important;
+    /*also good*/
+    color: white;
+}
+
+.containerheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}

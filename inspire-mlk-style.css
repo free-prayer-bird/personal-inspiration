@@ -1,0 +1,217 @@
+body {
+    background-color: whitesmoke
+    /*font-family: 'Playfair Display', serif !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    thinner good*/
+}
+
+.navbar {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.5em !important;
+}
+
+.navbar-brand {
+    font-size: 1.7rem !important;
+}
+
+.container {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 40px;
+    /*margin-left: none !important;
+    margin-right: none !important;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    column-gap: 16px;
+    row-gap: 30px;*/
+}
+
+.scene {
+    width: 265px;
+    height: 350px;
+    border-radius: 15px;
+    perspective: 600px;
+    margin: 20px;
+    /*margin: none !important;*/
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    border-radius: 15px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+    border-radius: 15px;
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card__face--front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 1.5px 1.5px #303030;
+}
+
+#light {
+    background-image: url("light-trees-unsplash.jpg");
+    background-size: contain;
+}
+
+#march {
+    background-image: url("march.jpg");
+    background-size: cover;
+}
+
+#hope {
+    background-image: url("hope-unsplash.jpg");
+    background-size: cover;
+}
+
+#goon {
+    background-image: url("go-on-jeremy-lapak-unsplash.jpg");
+    background-size: cover;
+}
+
+#enemyintofriend {
+    background-image: url("enemyintofriend-charles-deluvio-unsplash.jpg");
+    background-size: cover;
+}
+
+#righttime {
+    background-image: url("timeisalwaysright-andrik-langfield-unsplash.jpg");
+    background-size: cover;
+}
+
+#position {
+    background-image: url("position-etty-fidele-unsplash.jpg");
+    background-size: cover;
+}
+
+#brothers {
+    background-image: url("brothers-felipe-salgado-unsplash.jpg");
+    background-size: cover;
+}
+
+#measure {
+    background-image: url("measureofaman-christopher-sardegna-unsplash.jpg");
+    background-size: cover;
+}
+
+#modernman {
+    background-image: url("modernman-priscilla-du-preez-unsplash.jpg");
+    background-size: cover;
+}
+
+#brothersandsisters {
+    background-image: url("brothersandsisters-tim-mossholder-unsplash.jpg");
+    background-size: cover;
+}
+
+#silence {
+    background-image: url("endoflives-michael-dziedzic-unsplash.jpg");
+    background-size: cover;
+}
+
+#daybreakofpeace {
+    background-image: url("daybreakofpeace-sapan-patel-unsplash.jpg");
+    background-size: cover;
+}
+
+#forgiveness {
+    background-image: url("trueforgiveness-javardh-unsplash.jpg");
+    background-size: cover;
+}
+
+#nonviolence {
+    background-image: url("nonviolence-tyler-nix-unsplash.jpg");
+    background-size: cover;
+}
+
+#personoriented {
+    background-image: url("personorientated-sai-de-silva-unsplash.jpg");
+    background-size: cover;
+}
+
+#property {
+    background-image: url("property-austin-kehmeier-unsplash.jpg");
+    background-size: cover;
+}
+
+#whitemansbrother {
+    background-image: url("whitemansbrother-shane-rounce-unsplash.jpg");
+    background-size: cover;
+}
+
+# {
+    background-image: url("");
+    background-size: cover;
+}
+
+# {
+    background-image: url("");
+    background-size: cover;
+}
+
+#freedom {
+    background-image: url("freedom-junior-moran-unsplash.jpg");
+    background-size: cover;
+}
+
+.card__face--back {
+    background-image: url("marmor-white-unsplash.jpg");
+    background-size: contain;
+    border-radius: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    /*line-height: 40px;*/
+    transform: rotateY(180deg);
+}
+
+.card__face--back--smaller {
+    background-image: url("marmor-white-unsplash.jpg");
+    background-size: contain;
+    border-radius: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    line-height: 28px;
+    transform: rotateY(180deg);
+}
+
+.quote {
+    padding: 0px 20px;
+}

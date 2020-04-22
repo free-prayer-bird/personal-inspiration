@@ -1,0 +1,15 @@
+body {
+    font-family: 'Playfair Display', serif !important;
+    /*font-family: 'Open Sans Condensed', sans-serif;
+    thinner good*/
+}
+
+.navbar {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.5em !important;
+}
+
+.navbar-brand {
+    font-size: 1.7rem !important;
+}
